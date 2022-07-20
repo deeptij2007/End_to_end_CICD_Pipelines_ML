@@ -3,7 +3,7 @@ steps:
   args: ['build', '-t', 'gcr.io/cogent-mask-232514/imgwebapp:v1', '.']
   timeout: 180s
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/gogent-mask-232514/imgwebapp:v1']
+  args: ['push', 'gcr.io/cogent-mask-232514/imgwebapp:v1']
 - name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: "bash"
   args:
